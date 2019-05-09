@@ -1,0 +1,39 @@
+{
+  "name": "rxjs-demo-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "yarn storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest --config ./jest.config.js"
+  },
+  "author": "getElementsByName",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@storybook/addon-actions": "^5.0.6",
+    "@storybook/addon-info": "^5.0.6",
+    "@storybook/addon-knobs": "^5.0.6",
+    "@storybook/addon-links": "^5.0.6",
+    "@storybook/addon-storysource": "^5.0.6",
+    "@storybook/addon-viewport": "^5.0.6",
+    "@storybook/addons": "^5.0.6",
+    "@storybook/react": "^5.0.6",
+    "@types/jest": "^24.0.11",
+    "@types/storybook__addon-actions": "^3.4.2",
+    "@types/storybook__addon-knobs": "^4.0.5",
+    "@types/storybook__addon-links": "^3.3.4",
+    "@types/storybook__react": "^4.0.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.5",
+    "jest": "^24.7.1",
+    "react-docgen-typescript-loader": "^3.1.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.2"
+  }
+}
